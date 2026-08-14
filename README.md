@@ -28,6 +28,20 @@ Editor umožňuje navrhovat vlastní dráhy z jednotlivých stavebních bloků a
 
 ![Generované instrukce](images/ukazka-inst.png)
 
+## Ovládání
+
+| Ovládání | Funkce |
+|---|---|
+| **Mouse 1** | Položení / odstranění / obarvení bloku |
+| **Mouse 2** | Horizontální pohyb kamery |
+| **Ctrl + Mouse 2** | Vertikální pohyb kamery |
+| **Mouse 3** | Rotace kamery |
+| **Ctrl + Mouse Scroll** | Přiblížení / oddálení kamery |
+| **R** | Resetování kamery do původní polohy |
+| **C** | Změna barvy bloku |
+| **A / D** | Změna typu bloku |
+| **Scroll Wheel / Z / X** | Rotace bloku |
+
 ## Vyzkoušení
 
 Aktuální verzi editoru je možné stáhnout v sekci [Releases](../../releases).
