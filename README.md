@@ -22,6 +22,12 @@ Editor umožňuje navrhovat vlastní dráhy z jednotlivých stavebních bloků a
 - Unity
 - PDF generování
 
+## Náhled
+
+![Editor](images/ukazka-editor.jpg)
+
+![Generované instrukce](images/ukazka-inst.png)
+
 ## Vyzkoušení
 
-Editor je možné si stáhnout a vyzkoušet v sekci **Releases** tohoto repozitáře.
+Aktuální verzi editoru je možné stáhnout v sekci [Releases](../../releases).
