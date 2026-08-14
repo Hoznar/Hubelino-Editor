@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Layouts/Style.uss?fileID=7433441132597879392&amp;guid=d226f2eefd6d2c44b97ce051a3f93028&amp;type=3#Style" />
+    <ui:VisualElement name="Container" class="card" style="flex-grow: 0; background-color: rgb(236, 236, 236); width: 17%; height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; align-items: auto; flex-direction: column; border-top-left-radius: 0; border-bottom-left-radius: 10px; border-top-right-radius: 0; border-bottom-right-radius: 10px;">
+        <ui:VisualElement name="ItemsBlocks" class="labeled-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Blocks" display-tooltip-when-elided="true" name="Blocks" class="small-text" />
+            <ui:VisualElement name="BlocksList" class="button-items" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Button display-tooltip-when-elided="true" name="block2x2" class="button block-icon btn" style="background-image: resource(&apos;building_block_2x2&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="block2x3" class="button block-icon btn" style="background-image: resource(&apos;building_block_2x3&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="block2x4" class="button block-icon btn" style="background-image: resource(&apos;building_block_2x4&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="block1x2" class="button btn" style="background-image: resource(&apos;building_block_1x2&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="bridge2x3" class="button block-icon btn" style="background-image: resource(&apos;bridge_2x3&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemsTracks" class="labeled-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Tracks" display-tooltip-when-elided="true" name="Tracks" class="small-text" />
+            <ui:VisualElement name="TracksList" class="button-items" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Button display-tooltip-when-elided="true" name="track2x2" class="button block-icon btn" style="background-image: resource(&apos;track_2x2&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="track2x4" class="button block-icon btn" style="background-image: resource(&apos;track_2x4&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="terminal2x2" class="button block-icon btn" style="background-image: resource(&apos;terminal_2x2&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" name="crossing2x2" class="button block-icon btn" style="background-image: resource(&apos;crossing_2x2&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemsCurves" class="labeled-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Curves" display-tooltip-when-elided="true" name="Curves" class="small-text" />
+            <ui:VisualElement name="CurvesList" class="button-items" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Button display-tooltip-when-elided="true" name="curve2x2" class="button block-icon btn" style="background-image: resource(&apos;curve_2x2&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+                <ui:Button display-tooltip-when-elided="true" name="curve4x4" class="button block-icon btn" style="background-image: resource(&apos;curve_4x4&apos;); -unity-background-scale-mode: scale-and-crop; -unity-slice-top: 10; -unity-slice-bottom: 10;" />
+                <ui:Button display-tooltip-when-elided="true" name="uTurn" class="button block-icon btn" style="background-image: resource(&apos;u_turn&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemsSlides" class="labeled-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 40%;">
+            <ui:Label tabindex="-1" text="Slides" display-tooltip-when-elided="true" name="Slides" class="small-text" />
+            <ui:VisualElement name="SlidesList" class="button-items" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-wrap: wrap; flex-shrink: 1;">
+                <ui:Button display-tooltip-when-elided="true" name="slide2x2" class="button block-icon btn" style="background-image: resource(&apos;slide_2x2&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+                <ui:Button display-tooltip-when-elided="true" name="slide2x4" class="button block-icon btn" style="background-image: resource(&apos;slide_2x4&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+                <ui:Button display-tooltip-when-elided="true" name="slideCurve" class="button block-icon btn" style="background-image: resource(&apos;slide_curve_4x4&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="slideCurveM" class="button block-icon btn" style="background-image: resource(&apos;slide_curve_4x4_M&apos;);" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="uTurnSlide" class="button block-icon btn" style="background-image: resource(&apos;u_turn_slide&apos;);" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="uTurnSlideM" class="button block-icon btn" style="background-image: resource(&apos;u_turn_slide_M&apos;); margin-top: 5%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

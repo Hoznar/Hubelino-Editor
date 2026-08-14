@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="flex-grow: 0; background-color: rgb(229, 229, 229); width: 2%; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; height: 40%; border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; justify-content: center; align-self: center; align-items: stretch;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; height: 5%; background-image: resource(&apos;Icons/icon_hammer&apos;); -unity-background-scale-mode: scale-to-fit; scale: 0.5 0.5;" />
+        <ui:Label tabindex="-1" text=" +" display-tooltip-when-elided="true" style="font-size: 16px; -unity-font-style: bold; align-self: center;" />
+        <ui:Slider picking-mode="Ignore" value="50" high-value="100" direction="Vertical" inverted="false" name="ZoomSlider" style="height: 70%; align-self: center; justify-content: flex-end; align-items: center;" />
+        <ui:Label tabindex="-1" text=" -" display-tooltip-when-elided="true" enable-rich-text="true" name="Label" style="align-self: center; -unity-font-style: bold; font-size: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>

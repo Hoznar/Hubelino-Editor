@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Layouts/Style.uss?fileID=7433441132597879392&amp;guid=d226f2eefd6d2c44b97ce051a3f93028&amp;type=3#Style" />
+    <ui:VisualElement name="ContainerWindow" class="card" style="translate: 0 0; align-items: center; width: 20%; margin-top: auto; margin-bottom: auto; flex-grow: 0; height: auto; background-color: rgb(236, 236, 236);">
+        <ui:VisualElement name="Settings" style="flex-grow: 1; width: 90%; margin-top: 5%; margin-bottom: 5%; height: 50%;">
+            <ui:Label tabindex="-1" text="Settings" display-tooltip-when-elided="true" name="Text" class="small-text" style="margin-left: 4px; margin-bottom: 2%;" />
+            <ui:DropdownField label="Resolution" index="-1" choices="1920x1080,1366x768,1280x720,1280x1024,800x600" name="ResolutionPicker" focusable="false" />
+            <ui:Toggle label="Fullscreen" name="FullscreenToggle" value="true" focusable="false" tooltip="Toggles Fullscreen" usage-hints="-1" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Quit" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 50%; width: 90%; justify-content: flex-end; margin-bottom: 5%;">
+            <ui:Button text="Quit To Desktop" display-tooltip-when-elided="true" name="QuitButton" class="button-big" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

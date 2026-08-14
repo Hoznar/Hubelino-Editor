@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 100%; -unity-font-style: bold; white-space: normal; -unity-text-align: upper-left;">
+        <ui:VisualElement name="Container" style="flex-grow: 0; background-color: rgb(236, 236, 236); height: 20px; top: auto; visibility: visible; align-items: center; justify-content: center; align-self: auto; margin-left: 20%; margin-right: 20%; margin-top: 0; margin-bottom: 0; flex-direction: row; flex-wrap: nowrap; scale: 1 1; opacity: 1; flex-basis: 8%; border-top-left-radius: 0; border-bottom-left-radius: 75px; border-top-right-radius: 0; border-bottom-right-radius: 75px;">
+            <ui:Label tabindex="-1" text="Block: " display-tooltip-when-elided="true" name="textBlock" style="flex-direction: row; flex-grow: 0; flex-wrap: nowrap; justify-content: flex-start; align-items: auto; align-self: auto; -unity-text-align: upper-left; white-space: nowrap; text-overflow: clip; -unity-font: initial;" />
+            <ui:Label tabindex="-1" text="Color: " display-tooltip-when-elided="true" name="textColor" />
+            <ui:Label tabindex="-1" text="Rotation: " display-tooltip-when-elided="true" name="textRotation" />
+            <ui:Label tabindex="-1" text="Camera:" display-tooltip-when-elided="true" name="textCamera" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
